@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketIO.Engine.IO.Client", "SocketIO.Engine.IO.Client\SocketIO.Engine.IO.Client.csproj", "{B98234C8-3D4B-4D9A-BDDD-00D3DEBDCADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEngineIOClient", "DemoEngineIOClient\DemoEngineIOClient.csproj", "{E88F33A7-6104-427D-B505-F0A916D6CB45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B98234C8-3D4B-4D9A-BDDD-00D3DEBDCADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98234C8-3D4B-4D9A-BDDD-00D3DEBDCADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98234C8-3D4B-4D9A-BDDD-00D3DEBDCADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98234C8-3D4B-4D9A-BDDD-00D3DEBDCADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88F33A7-6104-427D-B505-F0A916D6CB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88F33A7-6104-427D-B505-F0A916D6CB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88F33A7-6104-427D-B505-F0A916D6CB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88F33A7-6104-427D-B505-F0A916D6CB45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

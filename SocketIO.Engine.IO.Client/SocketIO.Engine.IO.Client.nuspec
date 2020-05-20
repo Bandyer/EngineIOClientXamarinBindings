@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>SocketIO.Engine.IO.Client</id>
+    <version>1.0.0</version>
+    <title>SocketIO.Engine.IO.Client</title>
+    <authors>Bandyer</authors>
+    <owners>Bandyer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>bandyer,android,socket.io,socket,client,socket.io-client,engine-io,engine-io-client,xamarin</tags>
+    <license type="expression">Apache-2.0</license>
+    <copyright>Copyright © Bandyer</copyright>
+    <description>Socket.io's engine.io-client android bindings for Xamarin</description>
+    <summary>Socket.io's engine.io-client android bindings for Xamarin</summary>
+    <projectUrl>https://github.com/Bandyer/EngineIOClientXamarinBindings</projectUrl>
+    <dependencies>
+      <group targetFramework="MonoAndroid">
+        <dependency id="Karamunting.Android.Square.OkHttp" version="3.12.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="./bin/Release/SocketIO.Engine.IO.Client.*" target="lib/MonoAndroid" />
+  </files>
+</package>

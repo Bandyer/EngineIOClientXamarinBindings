@@ -1,0 +1,50 @@
+apply plugin : 'java'
+
+def version = '1.0.0'
+
+repositories {
+    mavenLocal()
+    maven { url 'https://maven.google.com' }
+    jcenter()
+    mavenCentral()
+}
+
+configurations {
+    aar
+    docs
+}
+
+configurations.all {
+    transitive = false
+}
+
+dependencies {
+    aar group: 'io.socket', name:'engine.io-client', version: "$version"
+    docs group: 'io.socket', name:'engine.io-client', classifier: 'javadoc', version: "$version"
+}
+
+clean() {
+    delete 'Javadoc', fileTree('Jars') { include '**/*.jar' }
+}
+
+task copyAndRenameAar(type: Copy) {
+    from file(configurations.aar.singleFile)
+    into 'Jars'
+    rename { 'engine.io-client.jar' }
+}
+
+task copyAndExtractJavaDoc(type: Copy) {
+    from zipTree(configurations.docs.singleFile)
+    into "Javadoc"
+}
+
+task allDeps(type: DependencyReportTask) {
+    configurations = [project.configurations.aar, project.configurations.docs]
+}
+
+task fetch(){
+    dependsOn clean
+    dependsOn allDeps
+    dependsOn copyAndRenameAar
+    dependsOn copyAndExtractJavaDoc
+}

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B98234C8-3D4B-4D9A-BDDD-00D3DEBDCADB}</ProjectGuid>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SocketIO.Engine.IO.Client</RootNamespace>
+    <AssemblyName>SocketIO.Engine.IO.Client</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>True</Deterministic>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jars\AboutJars.txt" />
+    <None Include="Additions\AboutAdditions.txt" />
+    <None Include="Javadoc\constant-values.html" />
+    <None Include="Javadoc\overview-tree.html" />
+    <None Include="Javadoc\overview-frame.html" />
+    <None Include="Javadoc\allclasses-noframe.html" />
+    <None Include="Javadoc\serialized-form.html" />
+    <None Include="Javadoc\index-all.html" />
+    <None Include="Javadoc\deprecated-list.html" />
+    <None Include="Javadoc\script.js" />
+    <None Include="Javadoc\stylesheet.css" />
+    <None Include="Javadoc\overview-summary.html" />
+    <None Include="Javadoc\help-doc.html" />
+    <None Include="Javadoc\allclasses-frame.html" />
+    <None Include="Javadoc\package-list" />
+    <None Include="Javadoc\META-INF\MANIFEST.MF" />
+    <None Include="Javadoc\io\socket\parseqs\package-use.html" />
+    <None Include="Javadoc\io\socket\parseqs\ParseQS.html" />
+    <None Include="Javadoc\io\socket\parseqs\package-frame.html" />
+    <None Include="Javadoc\io\socket\parseqs\package-summary.html" />
+    <None Include="Javadoc\io\socket\parseqs\package-tree.html" />
+    <None Include="Javadoc\io\socket\parseqs\class-use\ParseQS.html" />
+    <None Include="Javadoc\io\socket\emitter\package-use.html" />
+    <None Include="Javadoc\io\socket\emitter\Emitter.Listener.html" />
+    <None Include="Javadoc\io\socket\emitter\package-frame.html" />
+    <None Include="Javadoc\io\socket\emitter\package-summary.html" />
+    <None Include="Javadoc\io\socket\emitter\package-tree.html" />
+    <None Include="Javadoc\io\socket\emitter\Emitter.html" />
+    <None Include="Javadoc\io\socket\emitter\class-use\Emitter.Listener.html" />
+    <None Include="Javadoc\io\socket\emitter\class-use\Emitter.html" />
+    <None Include="Javadoc\io\socket\utf8\package-use.html" />
+    <None Include="Javadoc\io\socket\utf8\UTF8Exception.html" />
+    <None Include="Javadoc\io\socket\utf8\UTF8.html" />
+    <None Include="Javadoc\io\socket\utf8\UTF8.Options.html" />
+    <None Include="Javadoc\io\socket\utf8\package-frame.html" />
+    <None Include="Javadoc\io\socket\utf8\package-summary.html" />
+    <None Include="Javadoc\io\socket\utf8\package-tree.html" />
+    <None Include="Javadoc\io\socket\utf8\class-use\UTF8Exception.html" />
+    <None Include="Javadoc\io\socket\utf8\class-use\UTF8.html" />
+    <None Include="Javadoc\io\socket\utf8\class-use\UTF8.Options.html" />
+    <None Include="Javadoc\io\socket\thread\package-use.html" />
+    <None Include="Javadoc\io\socket\thread\package-frame.html" />
+    <None Include="Javadoc\io\socket\thread\package-summary.html" />
+    <None Include="Javadoc\io\socket\thread\package-tree.html" />
+    <None Include="Javadoc\io\socket\thread\EventThread.html" />
+    <None Include="Javadoc\io\socket\thread\class-use\EventThread.html" />
+    <None Include="Javadoc\io\socket\global\package-use.html" />
+    <None Include="Javadoc\io\socket\global\Global.html" />
+    <None Include="Javadoc\io\socket\global\package-frame.html" />
+    <None Include="Javadoc\io\socket\global\package-summary.html" />
+    <None Include="Javadoc\io\socket\global\package-tree.html" />
+    <None Include="Javadoc\io\socket\global\class-use\Global.html" />
+    <None Include="Javadoc\io\socket\yeast\package-use.html" />
+    <None Include="Javadoc\io\socket\yeast\package-frame.html" />
+    <None Include="Javadoc\io\socket\yeast\package-summary.html" />
+    <None Include="Javadoc\io\socket\yeast\package-tree.html" />
+    <None Include="Javadoc\io\socket\yeast\Yeast.html" />
+    <None Include="Javadoc\io\socket\yeast\class-use\Yeast.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\Parser.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\package-use.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\Parser.EncodeCallback.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\Parser.DecodePayloadCallback.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\package-frame.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\package-summary.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\Packet.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\package-tree.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\class-use\Parser.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\class-use\Parser.EncodeCallback.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\class-use\Parser.DecodePayloadCallback.html" />
+    <None Include="Javadoc\io\socket\engineio\parser\class-use\Packet.html" />
+    <None Include="Javadoc\io\socket\engineio\client\package-use.html" />
+    <None Include="Javadoc\io\socket\engineio\client\Transport.html" />
+    <None Include="Javadoc\io\socket\engineio\client\Transport.Options.html" />
+    <None Include="Javadoc\io\socket\engineio\client\EngineIOException.html" />
+    <None Include="Javadoc\io\socket\engineio\client\package-frame.html" />
+    <None Include="Javadoc\io\socket\engineio\client\package-summary.html" />
+    <None Include="Javadoc\io\socket\engineio\client\Socket.html" />
+    <None Include="Javadoc\io\socket\engineio\client\package-tree.html" />
+    <None Include="Javadoc\io\socket\engineio\client\Socket.Options.html" />
+    <None Include="Javadoc\io\socket\engineio\client\Transport.ReadyState.html" />
+    <None Include="Javadoc\io\socket\engineio\client\HandshakeData.html" />
+    <None Include="Javadoc\io\socket\engineio\client\class-use\Transport.html" />
+    <None Include="Javadoc\io\socket\engineio\client\class-use\Transport.Options.html" />
+    <None Include="Javadoc\io\socket\engineio\client\class-use\EngineIOException.html" />
+    <None Include="Javadoc\io\socket\engineio\client\class-use\Socket.html" />
+    <None Include="Javadoc\io\socket\engineio\client\class-use\Socket.Options.html" />
+    <None Include="Javadoc\io\socket\engineio\client\class-use\Transport.ReadyState.html" />
+    <None Include="Javadoc\io\socket\engineio\client\class-use\HandshakeData.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\package-use.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\PollingXHR.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\PollingXHR.Request.Options.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\package-frame.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\package-summary.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\WebSocket.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\package-tree.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\PollingXHR.Request.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\Polling.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\class-use\PollingXHR.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\class-use\PollingXHR.Request.Options.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\class-use\WebSocket.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\class-use\PollingXHR.Request.html" />
+    <None Include="Javadoc\io\socket\engineio\client\transports\class-use\Polling.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml" />
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <JavaDocIndex Include="Javadoc\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\engine.io-client.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Karamunting.Android.Square.OkHttp">
+      <Version>3.12.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
